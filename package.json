@@ -1,0 +1,21 @@
+{
+  "name": "playwright-cucumber-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js",
+"test:login": "cucumber-js tests/features/login.feature"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.62.0",
+    "@types/node": "^26.1.2"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^13.2.0"
+  }
+}
